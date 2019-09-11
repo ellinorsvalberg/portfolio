@@ -1,0 +1,530 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #badfdb 62%, #eef7f6 100%);
+}
+
+/*FONTS*/
+
+h1{
+	color: black;
+	font-style: bold;
+	font-family: "Helvetica";
+    font-size: 40px;
+	text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+h2{
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+h3{
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+h4{
+    color: #49beb7;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h5{
+    color: #49beb7;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h6{
+    color: #49beb7;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 30px;
+}
+
+.resumeTitle{
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resumeP{
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    line-height: 20px;
+}
+
+.seeResumeP{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -5px;
+}
+/*LINK TO RESUME*/
+/* unvisited link */
+a:link {
+    color: black;
+    font-family: "Helvetica";
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff8a5c;;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.footText{
+    color: white;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 15%;
+}
+
+
+/*NAVIGATION BAR*/
+
+.navbar{
+    background-color: #49beb7;
+    font-family: "Arial";
+    border-radius: 5px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    font-size: 12px;
+    font-family: "Arial";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.right-navbar{
+    float: right;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 12px;    
+    border: none;
+    outline: none;
+    font-family: "Arial";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff8a5c;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*ABOUT ME PAGE*/
+
+.about{
+    width: 70%;
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 15px, white;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.img1{
+    float: right;
+    vertical-align: middle;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left:25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+
+.footer{
+    padding: 2px;
+    background-color: #333;
+}
+
+.fas{
+    color: lightgrey;
+    padding: 10px;
+
+}
+
+.fab{
+    color: lightgrey;
+    padding: 10px;
+
+}
+
+.logos{
+    margin-left: 14.5%;
+}
+
+/*TIME LINE PAGE*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+
+
+/*PORTFOLIO PAGE*/
+
+.column {
+  margin-left: 57px;
+  width: 30%;
+  max-width: 350px;
+  float: left;
+  background-color: white;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px grey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.projectP{
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imgProject{
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    min-height: 120px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-right:25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: white 15px solid;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  font-style: bold;
+  font-family: "Helvetica";
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #49beb7;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  margin-left: 42px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #ff8a5c;
+}
+
+
+/*DESIGN PICTURES PAGE*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columnBJ {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-bottom: 35px;
+}
+
+/* Clear floats after image containers */
+.rowBJ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.picsBJ{
+  margin-left: 120px;
+  margin-right: 50px;
+}
+
+.picBJ{
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+}
+ 
+/*BIG PICTURES VACCINATIONSPORTAL*/
+.columnVC {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 35px;
+}
+
+/* Clear floats after image containers */
+.rowVC::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.picsVC{
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.picVC{
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.picText{
+    width: 85%;
+    color: black;
+    font-style: bold;
+    font-family: "Helvetica";
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    background-color: white;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.columnApp {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 35px;
+}
+
+/*WITH MAX WIDTH 600PX*/
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .column {
+    width: 100%;
+    display: block;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+}
